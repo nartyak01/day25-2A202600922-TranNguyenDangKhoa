@@ -1,0 +1,6 @@
+﻿=== SharedRedisCache evidence ===
+Instance c2 read from c1 write: value='[primary] reliable answer for: What is the refund policy?', score=1.0
+
+=== redis-cli KEYS rl:cache:* ===
+rl:cache:2d4f6b6676a4
+rl:cache:f452fc0bc027

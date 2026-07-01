@@ -34,3 +34,8 @@ scenarios:
   - name: all_healthy
     description: "Baseline — both providers healthy"
     provider_overrides: {}
+  - name: both_providers_fail
+    description: "Both providers fail 100% — all traffic should hit static fallback"
+    provider_overrides:
+      primary: 1.0
+      backup: 1.0
